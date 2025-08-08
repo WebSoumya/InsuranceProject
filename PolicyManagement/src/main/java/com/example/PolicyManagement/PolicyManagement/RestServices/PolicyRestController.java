@@ -48,6 +48,7 @@ public class PolicyRestController {
 	public void Deletepolicy(@PathVariable long policyid)
 	{
 		pservice.deletepolicy(policyid);
+		System.out.println(policyid);
 	}
 	
 	
